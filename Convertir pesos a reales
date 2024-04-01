@@ -1,0 +1,19 @@
+#include <iostream> 
+#include <string>
+
+using namespace std;
+
+int main() { 
+    
+	float cm = 0;
+     
+    
+    cout <<"Ingrese cm a convertir: " << endl;
+    cin >> cm;
+	
+	float convercion = cm*1/100;
+	
+	
+	cout <<" El resultado de la convercion es: "  << convercion << endl;
+    return 0;
+} 
