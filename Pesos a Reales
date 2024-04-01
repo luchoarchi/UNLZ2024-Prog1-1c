@@ -1,0 +1,23 @@
+#include <iostream> 
+#include <string>
+
+using namespace std;
+
+int main() { 
+    
+	float pesos = 0;
+	float valorDelReal = 0;
+     
+    
+    cout <<"Ingrese pesos argentinos a convertir: " << endl;
+    cin >> pesos;
+    
+    cout <<"Ingrese el valor del real : " << endl;
+    cin >> valorDelReal;
+	
+	float convercion = pesos/valorDelReal;
+	
+	
+	cout <<" El resultado de la convercion es: "  << convercion << endl;
+    return 0;
+} 
