@@ -1,0 +1,25 @@
+#include <iostream> 
+#include <string>
+
+using namespace std;
+
+int main() { 
+    
+	int L1 = 0;
+    int L2 = 0;
+    
+    
+    
+    
+    
+    cout <<"Ingrese el valor del lado1: " << endl;
+    cin >> L1;
+	cout <<"Ingrese el valor del lado2: " << endl;
+	cin >> L2;
+	
+	int Area = L1*L2;
+	
+	
+	cout <<" El area del rectangulo es:"  << Area << endl;
+    return 0;
+}
