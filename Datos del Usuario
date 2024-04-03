@@ -1,0 +1,45 @@
+#include <iostream> 
+#include <string>
+#include<cmath>
+
+using namespace std;
+
+int main() { 
+       
+       
+    cout <<"Ingrese su nombre: " ;
+    string nombre1;
+    string nombre2;
+    cin >> nombre1;
+    cin >> nombre2;
+    
+    cout <<"Ingrese su apellido: ";
+    string apellido;
+    cin >> apellido;
+    
+    cout <<"Ingrese su direccion: ";
+    string calle;
+    cin >> calle;
+    string altura;
+    cin >> altura;
+    
+    cout <<"Ingrese su localidad: ";
+    string localidad;
+    cin >> localidad;
+    
+    cout <<"Ingrese su provincia: ";
+    string provincia;
+    cin >> provincia;
+    
+    cout <<"Ingrese su pais de origen: ";
+    string pais;
+    cin >> pais;
+    
+    cout <<"Ingrese su telefono: ";
+    string telefono;
+    cin >> telefono;
+    
+    
+    	
+		
+} 
