@@ -1,0 +1,26 @@
+#include <iostream> 
+#include <string>
+
+using namespace std;
+
+int main() { 
+    
+	const float Vsonido = 343;
+	float segundos = 0;
+	float metros = 0;
+	
+	
+    cout <<" Ingrese segundos transcurridos entre el relampago y el trueno " << endl;
+    cin >> segundos;
+    
+    metros = segundos*Vsonido;
+    
+	cout <<" La tormenta se encuentra a : "<<  metros <<  " metros de distancia " << endl;
+	
+	
+	
+	
+	
+	
+    return 0;
+}
