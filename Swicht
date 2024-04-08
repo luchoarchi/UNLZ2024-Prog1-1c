@@ -23,6 +23,9 @@ int main(){
 		case 2:
 			resultado = valor + valor;
 			break;
+		default:
+			cout<<"No ingresaste ninguna opcion" << endl;
+			break;
 			
 	}
 	cout <<" El resultado es :" << resultado;
